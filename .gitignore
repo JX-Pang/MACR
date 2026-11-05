@@ -20,15 +20,28 @@ wheels/
 .installed.cfg
 *.egg
 
-# Checkpoint directories
-phase1_save/
-phase2_save/
-phase3_save/
-phase3_save_checkpoints/
-phase4_save/
-runs/
-generated/
-best_lora_weights/
+# Intermediate checkpoint files (keep directory structure via .gitkeep)
+phase1_save/**
+!phase1_save/**/
+!phase1_save/**/.gitkeep
+phase2_save/**
+!phase2_save/**/
+!phase2_save/**/.gitkeep
+phase3_save/**
+!phase3_save/**/
+!phase3_save/**/.gitkeep
+phase3_save_checkpoints/**
+!phase3_save_checkpoints/**/
+!phase3_save_checkpoints/**/.gitkeep
+phase4_save/**
+!phase4_save/**/
+!phase4_save/**/.gitkeep
+runs/**
+!runs/**/
+!runs/**/.gitkeep
+generated/**
+!generated/**/
+!generated/**/.gitkeep
 
 # Raw and bulky data
 data/raw/
