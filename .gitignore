@@ -1,0 +1,46 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Checkpoint directories
+phase1_save/
+phase2_save/
+phase3_save/
+phase3_save_checkpoints/
+phase4_save/
+runs/
+generated/
+best_lora_weights/
+
+# Raw and bulky data
+data/raw/
+*.tar.gz
+*.zip
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
